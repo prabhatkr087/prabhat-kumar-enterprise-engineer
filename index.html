@@ -1,10 +1,2454 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" 
+    	 content="Prabhat Kumar - Senior Enterprise Software Engineer specializing in Salesforce, Apex, LWC, Aura, Java, Spring Boot, Microservices, REST APIs, Kafka, PostgreSQL and enterprise integration.">
+
+    <meta name="author"
+          content="Prabhat Kumar">
+
+    <meta name="keywords"
+          content="Prabhat Kumar, Salesforce Developer, Salesforce Engineer, Apex, LWC, Aura, Java, Spring Boot, Microservices, Enterprise Software Engineer">
+
+    <meta name="theme-color"
+          content="#020403">
+
+    <title>
+        Prabhat Kumar | Senior Enterprise Software Engineer
+    </title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
+
 <body>
-  <h1>Welcome to my Portfolio Application</h1>
-  <p>Site is live!</p>
+
+<!-- =====================================================
+     BACKGROUND
+===================================================== -->
+
+<div class="matrix-bg" aria-hidden="true"></div>
+<div class="scanlines" aria-hidden="true"></div>
+
+
+<!-- =====================================================
+     TERMINAL TOP BAR
+===================================================== -->
+
+<div class="terminal-bar">
+
+    <div class="terminal-dots" aria-hidden="true">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+    </div>
+
+    <div class="terminal-title">
+        prabhat@enterprise-engineer: ~
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="navbar">
+    <a href="#home" class="nav-logo" aria-label="Prabhat Kumar home">
+        <span class="terminal-symbol">&gt;_</span>
+        <span>
+            PRABHAT KUMAR
+        </span>
+    </a>
+
+    <nav aria-label="Main navigation">
+
+        <a href="#home">./home</a>
+        <a href="#about">./about</a>
+        <a href="#skills">./skills</a>
+        <a href="#experience">./experience</a>
+        <a href="#projects">./projects</a>
+        <a href="#architecture">./architecture</a>
+        <a href="#certifications">./certifications</a>
+        <a href="#contact">./contact</a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="terminal-command">
+            <span class="green">
+                prabhat@enterprise-engineer
+            </span>
+            <span class="white">:</span>
+            <span class="cyan">~</span>
+            <span class="white">$</span>
+            <span class="typing">
+                whoami
+            </span>
+        </div>
+        <h1>
+            <span class="glitch" data-text="PRABHAT KUMAR">
+                PRABHAT KUMAR
+            </span>
+        </h1>
+        <h2>
+            <span class="green">
+                Senior Enterprise Software Engineer III
+            </span>
+        </h2>
+
+        <p class="hero-description">
+            I design and build scalable, secure, and high-performance
+            enterprise solutions across the Salesforce and Java ecosystems.
+
+            My expertise includes
+            <strong>
+                Salesforce, Force.com, Apex, Lightning Web Components (LWC),
+                Aura Framework, Triggers, Sales Cloud, Service Cloud,
+                Experience Cloud, REST APIs, Java, Spring Boot, Microservices,
+                Hibernate, JPA, Web Services, Apache Kafka, PostgreSQL,
+                and enterprise integrations.
+            </strong>
+        </p>
+        <!-- RIGHT SIDE: PROFILE AREA 
+	    <div class="profile-area"> -->
+	
+	        <!-- Big circle - Profile Picture
+	        <div class="profile-circle">
+	            <img src="profile.jpg" alt="Prabhat Kumar">
+	        </div>  -->
+        <!-- Small circle / Contact 
+        <div class="contact-circle">
+
+            <div class="contact-name">
+                PRABHAT KUMAR
+            </div>
+
+            <a href="mailto:saxenaprabhat457@gmail.com">
+                saxenaprabhat457@gmail.com
+            </a>
+
+            <a href="cv.pdf" download class="cv-button">
+                [ DOWNLOAD_CV ]
+            </a>
+
+        </div>
+       </div> -->
+
+
+        <div class="command-output">
+            <div>
+                <span class="green">[+]</span>
+                9+ years of software engineering experience
+            </div>
+
+            <div>
+                <span class="green">[+]</span>
+                Salesforce enterprise development
+            </div>
+
+            <div>
+                <span class="green">[+]</span>
+                Java &amp; Spring ecosystem
+            </div>
+
+            <div>
+                <span class="green">[+]</span>
+                Enterprise integration &amp; APIs
+            </div>
+
+            <div>
+                <span class="green">[+]</span>
+                Technical leadership &amp; mentoring
+            </div>
+        </div>
+
+
+        <div class="hero-buttons">
+            <a href="#projects" class="terminal-button">
+
+                [ VIEW_PROJECTS ]
+
+            </a>
+
+            <a href="#contact" class="terminal-button secondary">
+
+                [ CONNECT ]
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about" class="section">
+    <div class="section-header">
+        <span class="section-number">
+            01
+        </span>
+
+        <span class="section-command">
+            ./about --profile
+        </span>
+
+    </div>
+    
+    <div class="terminal-window">
+        <div class="window-header">
+            profile.txt
+        </div>
+        <div class="window-content">
+            <p>
+                <span class="green">&gt;</span>
+                I am a
+                <strong>
+                    Senior Enterprise Software Engineer III
+                </strong>
+                with extensive experience in enterprise application
+                development and
+                <span class="cyan">
+                    Salesforce
+                </span>
+                engineering.
+            </p>
+
+
+            <p>
+                <span class="green">&gt;</span>
+                My engineering background combines
+                <span class="cyan">
+                    Salesforce development
+                </span>
+                with
+                <span class="cyan">
+                    Java
+                </span>,
+
+                <span class="cyan">
+                    Spring Boot
+                </span>,
+
+                REST APIs, integrations, databases,
+                cloud technologies, and enterprise architecture.
+
+            </p>
+
+
+            <p>
+                <span class="green">&gt;</span>
+
+                I enjoy solving complex business problems,
+                designing maintainable systems, and helping
+                engineering teams deliver reliable software.
+
+            </p>
+
+
+            <div class="profile-stats">
+
+                <div class="stat-card">
+
+                    <span class="stat-number">
+                        9+
+                    </span>
+
+                    <span class="stat-label">
+                        YEARS EXPERIENCE
+                    </span>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-number">
+                        6+
+                    </span>
+
+                    <span class="stat-label">
+                        YEARS SALESFORCE
+                    </span>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-number">
+                        3+
+                    </span>
+
+                    <span class="stat-label">
+                        YEARS JAVA
+                    </span>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-number">
+                        10+
+                    </span>
+
+                    <span class="stat-label">
+                        ENTERPRISE PROJECTS
+                    </span>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-number">
+                        2
+                    </span>
+
+                    <span class="stat-label">
+                        CORE ECOSYSTEMS
+                    </span>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-number">
+                        III
+                    </span>
+
+                    <span class="stat-label">
+                        ENGINEER LEVEL
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section id="skills"
+         class="section dark-section">
+
+    <div class="section-header">
+
+        <span class="section-number">
+            02
+        </span>
+
+        <span class="section-command">
+            ./skills --list
+        </span>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+
+        <article class="skill-card">
+
+            <div class="skill-icon">
+                [SF]
+            </div>
+
+            <h3>
+                Salesforce Engineering
+            </h3>
+
+            <p>
+                Salesforce.com, Force.com, Apex, Triggers,
+                Async Apex, SOQL, SOSL, LWC, Aura Framework,
+                Flows, Sales Cloud, Service Cloud, Experience Cloud,
+                Health Cloud, Financial Services Cloud,
+                Platform Events, OmniStudio, Agentforce,
+                Security and Salesforce APIs.
+            </p>
+
+        </article>
+
+
+        <article class="skill-card">
+
+            <div class="skill-icon">
+                [JV]
+            </div>
+
+            <h3>
+                Java Engineering
+            </h3>
+
+            <p>
+                Java, J2EE, Spring, Spring Boot, Spring MVC,
+                Hibernate, JPA, REST APIs, Microservices,
+                Kafka and enterprise design patterns.
+            </p>
+
+        </article>
+
+
+        <article class="skill-card">
+
+            <div class="skill-icon">
+                [API]
+            </div>
+
+            <h3>
+                Enterprise Integration
+            </h3>
+
+            <p>
+                REST, SOAP, JSON, XML, OAuth, Salesforce APIs,
+                external systems, event-driven architecture,
+                asynchronous integrations and enterprise workflows.
+            </p>
+
+        </article>
+
+
+        <article class="skill-card">
+
+            <div class="skill-icon">
+                [DB]
+            </div>
+
+            <h3>
+                Data &amp; Persistence
+            </h3>
+
+            <p>
+                PostgreSQL, Oracle, MySQL, SOQL, Hibernate,
+                JPA, data modeling, query optimization
+                and enterprise persistence.
+            </p>
+
+        </article>
+
+
+        <article class="skill-card">
+
+            <div class="skill-icon">
+                [DEV]
+            </div>
+
+            <h3>
+                DevOps &amp; Tools
+            </h3>
+
+            <p>
+                Git, GitHub, GitLab, Bitbucket, Copado,
+                CI/CD, Eclipse, VS Code, Salesforce CLI
+                and automated deployments.
+            </p>
+
+        </article>
+
+
+        <article class="skill-card">
+
+            <div class="skill-icon">
+                [SYS]
+            </div>
+
+            <h3>
+                System Engineering
+            </h3>
+
+            <p>
+                System design, architecture, scalability,
+                performance, reliability, code review,
+                technical leadership and mentoring.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EXPERIENCE
+===================================================== -->
+
+<section id="experience"
+         class="section">
+
+    <div class="section-header">
+
+        <span class="section-number">
+            03
+        </span>
+
+        <span class="section-command">
+            ./experience --timeline
+        </span>
+
+    </div>
+
+
+    <div class="experience-timeline">
+
+
+        <!-- EXPERIENCE 01 -->
+
+        <article class="experience-item">
+
+            <div class="experience-marker">
+                01
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3 class="company-name">
+                            Enterprise Softlabs Pvt Ltd
+                        </h3>
+
+                        <h4 class="position-title">
+                            Senior Software Engineer III
+                        </h4>
+
+                        <span class="experience-location">
+                            Hyderabad, India
+                        </span>
+
+                        <span class="experience-period">
+                            07-2026 – Present
+                        </span>
+
+                    </div>
+
+                    <span class="experience-status">
+                        CURRENT
+                    </span>
+
+                </div>
+
+
+                <div class="experience-line"></div>
+
+
+                <div class="experience-description">
+
+                    <span class="experience-label">
+                        SALESFORCE EXPERIENCE
+                    </span>
+
+                    <p>
+                        Salesforce, Force.com, Apex, Lightning Web Components,
+                        Aura Framework, Triggers, Sales Cloud, Service Cloud,
+                        Experience Cloud and Salesforce APIs.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-tech-section">
+
+                    <span class="tech-label">
+                        TECHNOLOGY STACK
+                    </span>
+
+                    <div class="experience-tech">
+
+                        <span>Salesforce</span>
+                        <span>Force.com</span>
+                        <span>Apex</span>
+                        <span>Triggers</span>
+                        <span>LWC</span>
+                        <span>Aura</span>
+                        <span>REST API</span>
+                        <span>Integration</span>
+                        <span>Sales Cloud</span>
+                        <span>Service Cloud</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 02 -->
+
+        <article class="experience-item">
+
+            <div class="experience-marker">
+                02
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3 class="company-name">
+                            DBiz.ai
+                        </h3>
+
+                        <h4 class="position-title">
+                            Senior Software Engineer III
+                        </h4>
+
+                        <span class="experience-location">
+                            Kochi, India
+                        </span>
+
+                        <span class="experience-period">
+                            11-2025 – 02-2026
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-line"></div>
+
+
+                <div class="experience-description">
+
+                    <span class="experience-label">
+                        SALESFORCE EXPERIENCE
+                    </span>
+
+                    <p>
+                        Salesforce platform development, Apex,
+                        Lightning Web Components, Triggers,
+                        Salesforce APIs, Sales Cloud and Service Cloud.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-tech-section">
+
+                    <span class="tech-label">
+                        TECHNOLOGY STACK
+                    </span>
+
+                    <div class="experience-tech">
+
+                        <span>Salesforce</span>
+                        <span>Apex</span>
+                        <span>Triggers</span>
+                        <span>LWC</span>
+                        <span>Aura</span>
+                        <span>Integration</span>
+                        <span>API</span>
+                        <span>Sales Cloud</span>
+                        <span>Service Cloud</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 03 -->
+
+        <article class="experience-item">
+
+            <div class="experience-marker">
+                03
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3 class="company-name">
+                            Wipro Limited
+                        </h3>
+
+                        <h4 class="position-title">
+                            Senior Software Engineer III
+                        </h4>
+
+                        <span class="experience-company-note">
+                            Payroll: Careernet Technologies Pvt Ltd
+                        </span>
+
+                        <span class="experience-location">
+                            Bangalore, India
+                        </span>
+
+                        <span class="experience-period">
+                            04-2024 – 11-2024
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-line"></div>
+
+
+                <div class="experience-description">
+
+                    <span class="experience-label">
+                        SALESFORCE EXPERIENCE
+                    </span>
+
+                    <p>
+                        Salesforce, Apex, Lightning Web Components,
+                        Triggers, Financial Services Cloud,
+                        Service Cloud, Experience Cloud and
+                        Salesforce API integrations.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-tech-section">
+
+                    <span class="tech-label">
+                        TECHNOLOGY STACK
+                    </span>
+
+                    <div class="experience-tech">
+
+                        <span>Salesforce</span>
+                        <span>Apex</span>
+                        <span>Triggers</span>
+                        <span>LWC</span>
+                        <span>Aura</span>
+                        <span>FSC</span>
+                        <span>REST API</span>
+                        <span>Integration</span>
+                        <span>Service Cloud</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 04 -->
+
+        <article class="experience-item">
+
+            <div class="experience-marker">
+                04
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3 class="company-name">
+                            Photon Interactive Pvt. Ltd.
+                        </h3>
+
+                        <h4 class="position-title">
+                            Senior Software Engineer III
+                        </h4>
+
+                        <span class="experience-location">
+                            Bangalore, India
+                        </span>
+
+                        <span class="experience-period">
+                            10-2023 – 11-2023
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-line"></div>
+
+
+                <div class="experience-description">
+
+                    <span class="experience-label">
+                        SALESFORCE EXPERIENCE
+                    </span>
+
+                    <p>
+                        Salesforce, Apex, Lightning Web Components,
+                        Lightning Components, Aura Framework,
+                        Triggers and Salesforce APIs.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-tech-section">
+
+                    <span class="tech-label">
+                        TECHNOLOGY STACK
+                    </span>
+
+                    <div class="experience-tech">
+
+                        <span>Salesforce</span>
+                        <span>Apex</span>
+                        <span>Triggers</span>
+                        <span>LWC</span>
+                        <span>Aura</span>
+                        <span>Async Apex</span>
+                        <span>Integration</span>
+                        <span>API</span>
+                        <span>Sales Cloud</span>
+                        <span>Service Cloud</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 05 -->
+
+        <article class="experience-item">
+
+            <div class="experience-marker">
+                05
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3 class="company-name">
+                            Cognizant Technology Solutions India Pvt Ltd
+                        </h3>
+
+                        <h4 class="position-title">
+                            Associate – Project
+                        </h4>
+
+                        <span class="experience-location">
+                            Bangalore, India
+                        </span>
+
+                        <span class="experience-period">
+                            06-2021 – 05-2023
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-line"></div>
+
+
+                <div class="experience-description">
+
+                    <span class="experience-label">
+                        SALESFORCE EXPERIENCE
+                    </span>
+
+                    <p>
+                        Salesforce development using Apex,
+                        Lightning Web Components, Aura Framework,
+                        Triggers, Sales Cloud, Service Cloud,
+                        Experience Cloud and Salesforce integrations.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-tech-section">
+
+                    <span class="tech-label">
+                        TECHNOLOGY STACK
+                    </span>
+
+                    <div class="experience-tech">
+
+                        <span>Salesforce</span>
+                        <span>Apex</span>
+                        <span>Triggers</span>
+                        <span>LWC</span>
+                        <span>Aura</span>
+                        <span>Async Apex</span>
+                        <span>Integration</span>
+                        <span>API</span>
+                        <span>Sales Cloud</span>
+                        <span>Health Cloud</span>
+                        <span>Service Cloud</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 06 -->
+
+        <article class="experience-item">
+
+            <div class="experience-marker">
+                06
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3 class="company-name">
+                            Concentrix Services India Pvt Ltd
+                        </h3>
+
+                        <h4 class="position-title">
+                            Senior Software Engineer
+                        </h4>
+
+                        <span class="experience-location">
+                            Bangalore, India
+                        </span>
+
+                        <span class="experience-period">
+                            02-2020 – 05-2021
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-line"></div>
+
+
+                <div class="experience-description">
+
+                    <span class="experience-label">
+                        SALESFORCE EXPERIENCE
+                    </span>
+
+                    <p>
+                        Salesforce development, Apex, Triggers,
+                        Lightning Components, Salesforce integrations
+                        and Financial Services Cloud.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-tech-section">
+
+                    <span class="tech-label">
+                        TECHNOLOGY STACK
+                    </span>
+
+                    <div class="experience-tech">
+
+                        <span>Salesforce</span>
+                        <span>Apex</span>
+                        <span>Triggers</span>
+                        <span>LWC</span>
+                        <span>Aura</span>
+                        <span>Async Apex</span>
+                        <span>Integration</span>
+                        <span>API</span>
+                        <span>Financial Services Cloud</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 07 -->
+
+        <article class="experience-item">
+
+            <div class="experience-marker">
+                07
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3 class="company-name">
+                            Telerad Tech Pvt Ltd
+                        </h3>
+
+                        <h4 class="position-title">
+                            Software Engineer
+                        </h4>
+
+                        <span class="experience-location">
+                            Bangalore, India
+                        </span>
+
+                        <span class="experience-period">
+                            11-2018 – 08-2019
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-line"></div>
+
+
+                <div class="experience-description">
+
+                    <span class="experience-label">
+                        SALESFORCE EXPERIENCE
+                    </span>
+
+                    <p>
+                        Salesforce development, Apex, Triggers,
+                        Lightning Components and Salesforce
+                        integration services using Health Cloud.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-tech-section">
+
+                    <span class="tech-label">
+                        TECHNOLOGY STACK
+                    </span>
+
+                    <div class="experience-tech">
+
+                        <span>Salesforce</span>
+                        <span>Apex</span>
+                        <span>Triggers</span>
+                        <span>LWC</span>
+                        <span>Aura</span>
+                        <span>Async Apex</span>
+                        <span>Health Cloud</span>
+                        <span>Integration</span>
+                        <span>API</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 08 -->
+
+        <article class="experience-item">
+
+            <div class="experience-marker">
+                08
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3 class="company-name">
+                            Vision Impact Info Pvt Ltd
+                        </h3>
+
+                        <h4 class="position-title">
+                            Software Engineer
+                        </h4>
+
+                        <span class="experience-location">
+                            Bangalore, India
+                        </span>
+
+                        <span class="experience-period">
+                            12-2014 – 10-2018
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-line"></div>
+
+
+                <div class="experience-description">
+
+                    <span class="experience-label">
+                        JAVA EXPERIENCE
+                    </span>
+
+                    <p>
+                        Java development, enterprise application
+                        development, integrations and database-driven
+                        business applications.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-tech-section">
+
+                    <span class="tech-label">
+                        TECHNOLOGY STACK
+                    </span>
+
+                    <div class="experience-tech">
+
+                        <span>Java</span>
+                        <span>Spring</span>
+                        <span>Spring MVC</span>
+                        <span>Hibernate</span>
+                        <span>JPA</span>
+                        <span>REST APIs</span>
+                        <span>Web Services</span>
+                        <span>Oracle</span>
+                        <span>PostgreSQL</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section id="projects"
+         class="section dark-section">
+
+    <div class="section-header">
+
+        <span class="section-number">
+            04
+        </span>
+
+        <span class="section-command">
+            ./projects --featured
+        </span>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 01 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_01
+                </span>
+
+                <span class="status">
+                    ● ENTERPRISE
+                </span>
+
+            </div>
+
+
+            <h3>
+                ADP Enterprise Platform – The Zone
+            </h3>
+
+
+            <p>
+                Enterprise Salesforce solution supporting business operations,
+                payroll-related processes, employee data management,
+                tax-related processes and integration workflows across
+                multiple business regions and organizational segments.
+            </p>
+
+            <div class="project-tech">
+
+                <span>Salesforce</span>
+                <span>Force.com</span>
+                <span>Apex</span><span>Async Apex</span>
+                <span>Triggers</span>
+                <span>Flow</span>
+                <span>LWC</span>
+                <span>Aura</span>
+                <span>REST API</span>
+                <span>Integration</span>
+                <span>Platform Events</span>
+                <span>Sales Cloud</span>
+                <span>Service Cloud</span><span> Experience cloud</span>
+                <span>Agentforce</span><span>Copado</span>
+                <span>Omni-Channel</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Led the design, development and integration of
+                        enterprise Salesforce solutions while owning
+                        solution architecture, integration design,
+                        technical delivery and code quality.
+                    </p>
+
+                    <p>
+                        Collaborated with business and cross-functional
+                        teams, provided technical guidance and mentoring,
+                        and delivered scalable Salesforce solutions across
+                        multiple business operations.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; architecture.enterprise()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 02 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_02
+                </span>
+
+                <span class="status">
+                    ● FINANCIAL SERVICES
+                </span>
+
+            </div>
+
+
+            <h3>
+                Wealth Management &amp; Loan Automation Platform
+            </h3>
+
+
+            <p>
+                Salesforce Financial Services Cloud solution supporting
+                wealth management, financial planning, client relationship
+                management and business process automation.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Salesforce</span>
+                <span>Force.com</span>
+                <span>Apex</span>
+                <span>Triggers</span>
+                <span>LWC</span>
+                <span>Aura</span>
+                <span>Async Apex</span>
+                <span>Integration</span>
+                <span>API</span>
+                <span>Sales Cloud</span>
+                <span>Financial Services Cloud</span>
+                <span>Service Cloud</span>
+                <span>Experience Cloud</span>
+                <span>Agentforce</span>
+                <span>Omni-Channel</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Led end-to-end Salesforce FSC solution architecture,
+                        design, development, integrations and production
+                        support.
+                    </p>
+
+                    <p>
+                        Provided technical leadership through solution design,
+                        code reviews, mentoring and delivery governance while
+                        driving Salesforce engineering best practices.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; system.design()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 03 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_03
+                </span>
+
+                <span class="status">
+                    ● REAL ESTATE
+                </span>
+
+            </div>
+
+
+            <h3>
+                Aldar Properties
+            </h3>
+
+
+            <p>
+                Scalable Salesforce real estate platform supporting property
+                management, bookings, customer engagement, payments,
+                contracts, reporting and enterprise sales and service workflows.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Salesforce</span>
+                <span>Force.com</span>
+                <span>Apex</span>
+                <span>LWC</span>
+                <span>Aura</span>
+                <span>SOQL</span>
+                <span>FSL</span>
+                <span>Sales Cloud</span>
+                <span>Service Cloud</span>
+                <span>Experience Cloud</span>
+                <span>REST API</span>
+                <span>Integration</span>
+                <span>Flow</span>
+                <span>Agentforce</span>
+                <span>Omni-Channel</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Led end-to-end Salesforce solution delivery for
+                        enterprise real estate operations, including
+                        architecture, development, integrations, automation,
+                        data migration and Agile delivery.
+                    </p>
+
+                    <p>
+                        Provided senior technical leadership across Apex,
+                        LWC, Flow, Sales Cloud, Service Cloud, REST/SOAP
+                        integrations, security, CI/CD and technical mentoring.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; realestate.enterprise()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 04 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_04
+                </span>
+
+                <span class="status">
+                    ● BANKING
+                </span>
+
+            </div>
+
+
+            <h3>
+                Life Time Ledger
+            </h3>
+
+
+            <p>
+                Cloud-based Salesforce application built on Service Cloud
+                and Sales Cloud to manage transaction records, notifications,
+                debit and credit transactions, financial activities and
+                enterprise business workflows.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Salesforce</span>
+                <span>Force.com</span>
+                <span>Apex</span>
+                <span>Triggers</span>
+                <span>Flow</span>
+                <span>LWC</span>
+                <span>Aura</span>
+                <span>Async Apex</span>
+                <span>REST API</span>
+                <span>Integration</span>
+                <span>Sales Cloud</span>
+                <span>Financial Services Cloud</span>
+                <span>Service Cloud</span>
+                <span>Agentforce</span>
+                <span>OmniStudio</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Led a team of six Salesforce developers, providing
+                        technical leadership across solution design,
+                        development, integrations, code reviews, Agile
+                        delivery, production support and release management.
+                    </p>
+
+                    <p>
+                        Owned Salesforce architecture and technical delivery
+                        using Apex, LWC, Flow, FSC, Service Cloud, APIs,
+                        Platform Events, CDC, asynchronous processing
+                        and Salesforce security.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; financial.execute()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 05 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_05
+                </span>
+
+                <span class="status">
+                    ● FINANCIAL SERVICES
+                </span>
+
+            </div>
+
+
+            <h3>
+                Toyota Financial Services
+            </h3>
+
+
+            <p>
+                Salesforce financial services platform supporting dealership,
+                customer, vehicle finance, insurance and digital agreement
+                workflows with secure document generation, electronic
+                signatures and enterprise integrations.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Salesforce</span>
+                <span>Force.com</span>
+                <span>Financial Services Cloud</span>
+                <span>Sales Cloud</span>
+                <span>Service Cloud</span>
+                <span>Experience Cloud</span>
+                <span>Apex</span>
+                <span>LWC</span>
+                <span>Aura</span>
+                <span>Flow</span>
+                <span>Async Apex</span>
+                <span>Adobe Integration</span>
+                <span>REST API</span>
+                <span>DocuSign</span>
+                <span>Data Cloud</span>
+                <span>Agentforce</span>
+                <span>OmniStudio</span>
+                <span>GitLab</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Led a team of six Salesforce developers, owning
+                        technical delivery, solution design, development,
+                        integrations, code reviews, Agile execution and
+                        production support.
+                    </p>
+
+                    <p>
+                        Provided hands-on technical leadership across Apex,
+                        LWC, Flow, FSC, integrations, asynchronous processing,
+                        security and CI/CD.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; financial.services()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 06 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_06
+                </span>
+
+                <span class="status">
+                    ● LIFE SCIENCE
+                </span>
+
+            </div>
+
+
+            <h3>
+                Juno Therapeutics GPS
+            </h3>
+
+
+            <p>
+                Salesforce healthcare portal supporting site-of-care
+                management, product orders, clinical and commercial workflows,
+                and secure customer and account data management.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Salesforce</span>
+                <span>Force.com</span>
+                <span>Apex</span>
+                <span>Async Apex</span>
+                <span>LWC</span>
+                <span>Aura</span>
+                <span>Flow</span>
+                <span>REST API</span>
+                <span>Sales Cloud</span>
+                <span>Service Cloud</span>
+                <span>Experience Cloud</span>
+                <span>Health Cloud</span>
+                <span>AWS</span>
+                <span>Bitbucket</span>
+                <span>OmniStudio</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Led a team of six Salesforce developers, coordinating
+                        technical delivery, sprint execution, solution design,
+                        development, code reviews, deployments and production
+                        support.
+                    </p>
+
+                    <p>
+                        Provided hands-on leadership across Apex, LWC, Aura,
+                        Flow, integrations, AWS, Health Cloud and Salesforce
+                        security.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; lifescience.platform()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 07 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_07
+                </span>
+
+                <span class="status">
+                    ● FINANCIAL
+                </span>
+
+            </div>
+
+
+            <h3>
+                Reporting Tools
+            </h3>
+
+
+            <p>
+                Salesforce financial services reporting platform enabling
+                corporate customers to securely access, schedule and manage
+                transaction and financial reports through centralized
+                reporting modules.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Salesforce</span>
+                <span>Force.com</span>
+                <span>Financial Services Cloud</span>
+                <span>Sales Cloud</span>
+                <span>Service Cloud</span>
+                <span>Apex</span>
+                <span>Async Apex</span>
+                <span>LWC</span>
+                <span>Aura</span>
+                <span>Flow</span>
+                <span>SOQL</span>
+                <span>REST API</span>
+                <span>Visualforce</span>
+                <span>Security</span>
+                <span>OWD</span>
+                <span>Bitbucket</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Designed and developed Salesforce financial services
+                        solutions across reporting, automation, customer
+                        management, integrations and security.
+                    </p>
+
+                    <p>
+                        Delivered Apex, LWC, Aura, Flow, REST integrations,
+                        FSC configurations, reporting, deployments and
+                        production support.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; reporting.platform()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 08 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_08
+                </span>
+
+                <span class="status">
+                    ● HEALTHCARE
+                </span>
+
+            </div>
+
+
+            <h3>
+                Hospital Management System
+            </h3>
+
+
+            <p>
+                Integrated Salesforce healthcare platform supporting patient
+                registration, billing, insurance, pharmacy, blood bank,
+                HRMS, maintenance and end-to-end hospital operations.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Salesforce</span>
+                <span>Force.com</span>
+                <span>Apex</span>
+                <span>Async Apex</span>
+                <span>LWC</span>
+                <span>Aura</span>
+                <span>Flow</span>
+                <span>REST API</span>
+                <span>Sales Cloud</span>
+                <span>Service Cloud</span>
+                <span>Experience Cloud</span>
+                <span>Health Cloud</span>
+                <span>AWS</span>
+                <span>Bitbucket</span>
+                <span>OmniStudio</span>
+                <span>DocuSign</span>
+                <span>FSL</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Contributed to end-to-end Salesforce healthcare
+                        application development across patient registration,
+                        billing, insurance, pharmacy, blood bank and hospital
+                        operations.
+                    </p>
+
+                    <p>
+                        Delivered Apex, LWC, Aura, Flow, integrations,
+                        validations, testing, deployments and production
+                        support.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; healthcare.management()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 09 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_09
+                </span>
+
+                <span class="status">
+                    ● JAVA
+                </span>
+
+            </div>
+
+
+            <h3>
+                Sales Tracking System
+            </h3>
+
+
+            <p>
+                Java-based sales management platform automating product sales,
+                inventory reorders, dispatch tracking, customer history and
+                end-to-end order fulfillment workflows.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Java</span>
+                <span>J2EE</span>
+                <span>Java 8</span>
+                <span>JSP</span>
+                <span>Servlet</span>
+                <span>Spring</span>
+                <span>Spring Boot</span>
+                <span>Spring MVC</span>
+                <span>Hibernate</span>
+                <span>Microservices</span>
+                <span>Oracle</span>
+                <span>PostgreSQL</span>
+                <span>iReports</span>
+                <span>JBoss</span>
+                <span>Eclipse</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Developed enterprise sales modules using Java, JSP,
+                        Spring and Hibernate for order processing, inventory,
+                        dispatch and customer management.
+                    </p>
+
+                    <p>
+                        Designed Spring service and DAO layers, Hibernate
+                        mappings, persistence components and database
+                        integrations.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; sales.tracking()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 10 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_10
+                </span>
+
+                <span class="status">
+                    ● JAVA
+                </span>
+
+            </div>
+
+
+            <h3>
+                Automation of Automobile Transaction
+            </h3>
+
+
+            <p>
+                Java-based automobile transaction platform connecting buyers,
+                sellers, brokers, finance providers, insurers and regulatory
+                stakeholders across used-vehicle sales workflows.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Java</span>
+                <span>J2EE</span>
+                <span>Java 8</span>
+                <span>JSP</span>
+                <span>Servlet</span>
+                <span>Spring</span>
+                <span>Spring Boot</span>
+                <span>Spring MVC</span>
+                <span>Hibernate</span>
+                <span>Microservices</span>
+                <span>Oracle</span>
+                <span>PostgreSQL</span>
+                <span>JBoss</span>
+                <span>Eclipse</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Developed and enhanced Java-based automobile
+                        transaction workflows using Spring MVC and Hibernate.
+                    </p>
+
+                    <p>
+                        Implemented controller, service, DAO and persistence
+                        layers while contributing to application development,
+                        debugging, testing and technical enhancements.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; automobile.transaction()
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 11 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span class="project-id">
+                    PROJECT_11
+                </span>
+
+                <span class="status">
+                    ● HEALTHCARE
+                </span>
+
+            </div>
+
+
+            <h3>
+                Presbyterian Health Care
+            </h3>
+
+
+            <p>
+                Web-based healthcare platform connecting doctors and patients
+                through patient history management, medical information access
+                and online appointment scheduling.
+            </p>
+
+
+            <div class="project-tech">
+
+                <span>Java</span>
+                <span>J2EE</span>
+                <span>Java 8</span>
+                <span>JSP</span>
+                <span>Servlet</span>
+                <span>Spring</span>
+                <span>Spring Boot</span>
+                <span>Spring MVC</span>
+                <span>Hibernate</span>
+                <span>Microservices</span>
+                <span>Oracle</span>
+                <span>PostgreSQL</span>
+                <span>iReports</span>
+                <span>JBoss</span>
+                <span>Eclipse</span>
+
+            </div>
+
+
+            <details class="project-details">
+
+                <summary>
+                    <span>ROLE &amp; RESPONSIBILITIES</span>
+                    <span class="expand-icon">+</span>
+                </summary>
+
+                <div class="responsibilities">
+
+                    <p>
+                        Developed healthcare application modules using Java,
+                        JSP, Spring MVC and Hibernate for patient information,
+                        doctor access, medical history and appointments.
+                    </p>
+
+                    <p>
+                        Implemented controller and service-layer components
+                        following MVC architecture while contributing to
+                        database integration, testing and issue resolution.
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="project-command">
+                &gt; healthcare.system()
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ARCHITECTURE
+===================================================== -->
+
+<section id="architecture"
+         class="section">
+
+    <div class="section-header">
+
+        <span class="section-number">
+            05
+        </span>
+
+        <span class="section-command">
+            ./architecture --overview
+        </span>
+
+    </div>
+
+
+    <div class="architecture-window">
+
+        <div class="architecture-title">
+            ENTERPRISE SYSTEM ARCHITECTURE
+        </div>
+
+
+        <div class="architecture-flow">
+
+            <div class="architecture-node">
+
+                <span class="node-icon">
+                    [CLIENT]
+                </span>
+
+                <strong>
+                    Web / Mobile
+                </strong>
+
+            </div>
+
+
+            <div class="arrow">
+                ──────►
+            </div>
+
+
+            <div class="architecture-node">
+
+                <span class="node-icon">
+                    [API]
+                </span>
+
+                <strong>
+                    REST / SOAP
+                </strong>
+
+            </div>
+
+
+            <div class="arrow">
+                ──────►
+            </div>
+
+
+            <div class="architecture-node highlight">
+
+                <span class="node-icon">
+                    [JAVA]
+                </span>
+
+                <strong>
+                    Spring Boot
+                </strong>
+
+            </div>
+
+
+            <div class="arrow">
+                ──────►
+            </div>
+
+
+            <div class="architecture-node highlight">
+
+                <span class="node-icon">
+                    [SF]
+                </span>
+
+                <strong>
+                    Salesforce
+                </strong>
+
+            </div>
+
+
+            <div class="arrow">
+                ──────►
+            </div>
+
+
+            <div class="architecture-node">
+
+                <span class="node-icon">
+                    [DB]
+                </span>
+
+                <strong>
+                    Enterprise Data
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="architecture-description">
+
+            <p>
+
+                <span class="green">$</span>
+
+                Designing enterprise solutions with clear separation
+                of concerns, secure integrations, scalable services
+                and maintainable architecture.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CERTIFICATIONS
+===================================================== -->
+
+<section id="certifications"
+         class="section dark-section">
+
+    <div class="section-header">
+
+        <span class="section-number">
+            06
+        </span>
+
+        <span class="section-command">
+            ./certifications --verified
+        </span>
+
+    </div>
+
+
+    <div class="certification-grid">
+
+
+        <article class="certification-card">
+
+            <div class="certificate-icon">
+                [✓]
+            </div>
+
+            <h3>
+                Salesforce Certified
+            </h3>
+
+            <p>
+                Platform Developer
+            </p>
+
+            <span>
+                VERIFIED
+            </span>
+
+        </article>
+
+
+        <article class="certification-card">
+
+            <div class="certificate-icon">
+                [✓]
+            </div>
+
+            <h3>
+                Salesforce Certified
+            </h3>
+
+            <p>
+                Administrator
+            </p>
+
+            <span>
+                VERIFIED
+            </span>
+
+        </article>
+
+
+        <article class="certification-card">
+
+            <div class="certificate-icon">
+                [✓]
+            </div>
+
+            <h3>
+                Salesforce Certified
+            </h3>
+
+            <p>
+                Additional Platform Certification
+            </p>
+
+            <span>
+                VERIFIED
+            </span>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact" class="contact-section">
+    <div class="contact-terminal">
+        <div class="terminal-command">
+            <span class="green">
+                prabhat@enterprise-engineer
+            </span>
+            <span>
+                :~$
+            </span>
+            <span class="typing">
+                ./connect.sh
+            </span>
+        </div>
+
+        <h2>
+            LET'S BUILD
+            <span class="green">
+                SOMETHING GREAT.
+            </span>
+        </h2>
+        <p>
+            Interested in enterprise software, Salesforce, Java, architecture or engineering opportunities?
+        </p>
+
+
+        <div class="contact-buttons">
+            <div class="contact-buttons">
+
+			    <!-- Email -->
+			    <a href="mailto:saxenaprabhat457@gmail.com"
+			       class="terminal-button">
+			        [ EMAIL_ME ]
+			    </a>
+			
+			    <!-- LinkedIn -->
+			    <a href="https://www.linkedin.com/in/prabhat-kumar-05b59166/"
+			       target="_blank"
+			       rel="noopener noreferrer"
+			       class="terminal-button secondary">
+			        [ LINKEDIN ]
+			    </a>
+			
+			    <!-- GitHub -->
+			    <a href="https://github.com/prabhatkr087/prabhat-kumar-enterprise-engineer"
+			       target="_blank"
+			       rel="noopener noreferrer"
+			       class="terminal-button secondary">
+			        [ GITHUB ]
+			    </a>
+			    
+    				<!-- Download CV -->			    
+			    <a href="/cv.pdf" download="Prabhat_Kumar_10_Years_CV_Salesforce.pdf"
+       				class="terminal-button secondary">
+				        [ DOWNLOAD_CV ]
+				</a>
+
+			</div>
+        </div>
+    </div>
+    
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+    <div>
+        <span class="green">
+            root@prabhat
+        </span>
+        <span>:</span>
+        <span class="cyan">
+            ~/portfolio
+        </span>
+        <span>$</span>
+        <span>
+            exit
+        </span>
+    </div>
+    <p>
+        © 2026 Prabhat Kumar.Senior Enterprise Software Engineer.
+    </p>
+
+</footer>
+<script th:src="@{/js/script.js}"></script>
 </body>
 </html>
